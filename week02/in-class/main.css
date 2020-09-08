@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+}
+
+main {
+    padding: 10px;
+
+}
+
+@media (min-width: 768px){
+   main {
+       width: 700px;
+       margin: auto;
+   }
+
+}
