@@ -40,11 +40,15 @@ nav ul {
     margin: 0px;
     padding: 20px 0px 0px;
     display: none;
+    text-align: center;
 }
 
 nav ul li {
     padding: 10px 0px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom-width: thick;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
     font-family: 'Rajdhani', sans-serif;
     margin-left: 10px;
 }
@@ -173,14 +177,15 @@ img.blogpic {
 
 img.nav-logo {
     max-width: 100%;
-    width: 150px;
+    float: left;
+    width: 100px;
     margin: auto;
 }
 
 
 nav ul {
     display: block;
-    float: right;
+    text-align: center;
     padding: 0px;
 
 }
@@ -189,8 +194,13 @@ nav ul li {
     border: none;
     display: inline-block;
     margin-right: 20px;
-    padding: 65px 0px;
+    padding: 35px 0px;
     
+}
+
+/*home*/
+p.home {
+    padding: 40px;
 }
 
 /*About*/
@@ -220,15 +230,23 @@ header.he4 {
 
 @media (min-width: 900px) {
 
+    header {width: 100%;
+    }
     label[for="Toggle"] {
         display: none;
+    }
+    
+    img.nav-logo {
+        max-width: 100%;
+        width: 150px;
+        margin: auto;
     }
     
     
     nav ul {
         display: block;
-        float: right;
         padding: 0px;
+        text-align: right;
     
     }
     
@@ -237,8 +255,105 @@ header.he4 {
         display: inline-block;
         margin-right: 20px;
         padding: 65px 0px;
-        font-family: 'Rajdhani', sans-serif;
         
     }
+/*home*/
+header {
+    background-color: rgb(241, 199, 212);
+    
+}
+
+img.homephoto{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+    p.home {
+        padding: 100px;
+    }
+
+/*about*/
+header.he2 {
+    background-color: rgb(145, 178, 240);
+}
+p.about {
+    font-family: 'Assistant', sans-serif;
+    background-color: rgb(215, 232, 252);
+    padding: 100px;
+    width: 70%;
+    margin: auto;
+}
+
+/*contact*/
+header.he3 {
+    background-color: rgb(208, 174, 240);
+    
+}
+input[type=submit] {
+    background-color: rgb(208, 174, 240);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+
+}
+
+.container {
+    border-radius: 2px;
+    background-color: rgb(238, 227, 248);
+    padding: 25px;
+    width: 70%;
+    margin: auto;
+    
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 5px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical }
+
+p.contact {
+    font-family: 'Assistant', sans-serif;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 200px;
+}
+
+/*blog*/
+header.he4 {
+    background-color: rgb(253, 240, 162);
+}
+p.par4 {
+    font-family: 'Assistant', sans-serif;
+    margin: auto;
+    background-color: rgb(250, 245, 220);
+    padding: 60px;
+    width: 80%;
+
+}
+
+img.blogpic {
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    margin: auto;
+}
+
 
 }
