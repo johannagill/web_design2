@@ -5,10 +5,9 @@
     
 }
 
-
 nav img {
     width: 100%;
-    width: 150px;
+    width: 100px;
     display: block;
     margin: auto;
 }
@@ -22,11 +21,23 @@ nav ul li {
     padding: 10px;
     font-family: 'Abril Fatface', cursive;
     text-decoration: none;
+    padding: 20px 0px;
+    display: block;
+    width: 200%;
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+   
+    
+}
+ 
+nav ul li:last-child {
+    border-bottom: none;
+}
    
 
     
    
-}
+
 
 .order-1 {
     order: 1;
@@ -41,18 +52,49 @@ nav ul li {
     order: 3;
 }
 
+.order-4 {
+    order: 4;
+}
 
-.flex-columne {
+
+.flex-column {
     flex-direction: column;
 }
 
 @media (min-width: 768px){
+    
+    nav img {
+        width: 100%;
+        width: 200px;
+        display: block;
+        margin: auto;
+        justify-content: center;
+        order: 3;
+    }
 
     .flex {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
     }
 
+    ul.flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    nav.flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    nav ul li {
+        padding: 20px;
+        border-bottom: none;
+        justify-content: center
+        
+    }
     .order-lrg-1 {
         order: 1;
     
@@ -61,9 +103,15 @@ nav ul li {
     .order-lrg-2 {
         order: 2;
     }
-    
-    .order-lrg-3 {
+    .logo {
         order: 3;
     }
     
+    .order-lrg-3 {
+        order: 4;
+    }
+    
+    .order-lrg-4 {
+        order: 5;
+    }
 }
