@@ -83,15 +83,14 @@ img.pic-3-lrg {
 
 img.pic-4-lrg {
     order: 4;
-    flex: 0 1 auto;
-    padding: 0px 5px 5px;
+    flex-basis: 70%;
+
 
 }
 
 img.pic-5-lrg {
     order: 5;
-    flex:0 2 auto;
-    padding: 0px 5px 5px;
+    flex-basis: 30%;
 }
 
 }
