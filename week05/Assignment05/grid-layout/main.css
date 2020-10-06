@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: rgb(224, 213, 183);
+    background-color: rgb(218, 211, 201);                                                       
 }
 .flex {
     display: flex;
@@ -17,7 +17,7 @@ header {
 
 a {
     text-decoration: none;
-    color: rgb(89, 55, 42);
+    color: rgb(100, 86, 80);
     text-transform: uppercase;
     text-align: center;
     
@@ -70,7 +70,7 @@ nav ul li:last-child {
 .wrapper1 {
 display: grid;
 grid-gap: 10px;
-grid-template-columns: 120px 120px 120px;
+grid-template-columns: 110px 110px 110px;
 grid-template-areas:
 "header header header"
     "content content content"
@@ -78,13 +78,14 @@ grid-template-areas:
     "footer  footer  footer";
     background-color: #fff;
     color: rgb(151, 166, 160);
+    padding: 10px;
 }
 
 
 .box1 {
 background-color:  rgb(204, 217, 215);
-color: #fff;
-border-radius: 5px;
+color: #444;
+border-radius: 2px;
 padding: 15px;
 font-size: 100%;
 }
@@ -116,10 +117,11 @@ margin-top: 10px;
 
 .box2 {
     background-color: rgb(204, 217, 215);
-    color: #fff;
-    border-radius: 5px;
+    color: #444;
+    border-radius: 2px;
     padding: 10px;
-    font-size: 150%;
+    font-size: 100%;
+    line-height: 20px;
 
 }
 
@@ -129,6 +131,8 @@ margin-top: 10px;
 .b {
     grid-column: 1 / span 3;;
     grid-row: 2;
+    padding: 15px;
+
 }
 .c {
     grid-column: 1 / span 3;
@@ -137,7 +141,6 @@ margin-top: 10px;
 .d {
     grid-column: 1 / span 3;
     grid-row: 4;
-    padding: 0px;
 }
 
 .imgA {
@@ -150,27 +153,29 @@ margin-top: 10px;
 
 .imgD {
     max-width: 100%;
-    padding: 0px;
+    
 }
 
 /*products*/
 
 .box3 {
     background-color:rgb(204, 217, 215);
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 150%; 
+    color: #444;
+    border-radius: 2px;
+    padding: 15px;
+    font-size: 100%; 
   }
   
   .header,
   .footer {
-    background-color: rgb(151, 166, 160);;
+    background-color: rgb(151, 166, 160);
+    color: white;
   }
   
   .sidebar2 {
     background-color: rgb(204, 217, 215);
     color: #444;
+    padding: 20px;
   }
 .sidebar {
     grid-area: sidebar;
@@ -178,10 +183,12 @@ margin-top: 10px;
 
 .sidebar2 {
     grid-area: sidebar2;
+    padding: 20px;
 }
 
 .content {
     grid-area: content;
+    padding: 20px;
 }
 
 .header {
@@ -195,6 +202,7 @@ margin-top: 10px;
 .wrapper3 {
     background-color: #fff;
     color: #444;
+    padding: 10px;
 }
 
 .wrapper3 {
@@ -208,17 +216,6 @@ grid-template-areas:
  "footer"
 }
 
-.wrapper3 {
-
-    grid-template-columns: 20% auto;
-    grid-template-areas:
-"header   header"
-    "content content"
-    "sidebar sidebar"
-    "sidebar2 sidebar2"
-    "footer   footer";
-}
-
 .img3a {
     max-width: 100%;
 
@@ -230,6 +227,10 @@ grid-template-areas:
 
 /*ipad and larger screens*/
 @media (min-width: 768px) {
+
+    header {
+        background-color: rgb(218, 211, 201);                                                       
+    }
 
     .flex  {
         display: flex;
@@ -280,7 +281,7 @@ grid-template-areas:
     }
 
     .box1 {
-        font-size: 200%;
+        font-size: 100%;
         padding: 20px;
     }
 /*About*/
@@ -338,7 +339,7 @@ grid-template-areas:
     color: rgb(112, 110, 110);
     border-radius: 5px;
     padding: 10px;
-    font-size: 150%; 
+    font-size: 100%; 
   }
   
   .header,
