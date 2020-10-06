@@ -1,0 +1,22 @@
+.brown-bg {
+    background-color: rgb(89, 55, 42);
+}
+
+.sand-bg {
+    background-color: rgb(189, 172, 150);
+}
+
+.teal-bg {
+    background-color: rgb(151, 166, 160);
+}
+
+.sky-bg {background-color: rgb(204, 217, 215);
+}
+
+.back-tx {
+    color: rgb(0,0,0);
+}
+
+.teal-tx {
+    color: rgb(151, 166, 160);
+}
