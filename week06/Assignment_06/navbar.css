@@ -1,0 +1,28 @@
+.logo {
+    width: 200px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+nav ul li {
+    list-style: none;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 210px;
+    margin: auto;
+
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+   
+    
+    
+}
