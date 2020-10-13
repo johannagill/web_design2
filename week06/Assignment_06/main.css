@@ -3,13 +3,10 @@
 @import url('colors.css');
 @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@600&family=Poiret+One&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
 
-html {
-    font-size: 10px;
-}
 main {
     padding: 10px;
     display: grid;
-    grid-template-columns:100% ;
+    grid-template-columns: 100%;
     grid-template-rows: repeat(4, auto);
 
 }
@@ -22,13 +19,22 @@ h1 {
     padding: 20px 0px;
 }
 
+.light-green {
+    grid-column: 1 / span 2;
+    
+}
+
+h3 {
+    text-align: center;
+    margin: 2px;
+    color: rgb(241, 238, 235);
+
 @media (min-width:768px) {
     main {
         padding: 10px 0px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 1fr 1fr;
         gap: 10px;
-        width: 750px;
         margin: auto;
     }
 
@@ -44,4 +50,22 @@ h1 {
     p:last-child {
         grid-column: 1 / span 2;
     }
+}
+
+@media (min-width: 950px) {
+    
+
+    .light-green {
+        grid-column: 1 / span 2;
+        
+    }
+
+    h3 {
+        text-align: center;
+        margin: 2px;
+        color: rgb(241, 238, 235);
+        
+        
+    }
+
 }
