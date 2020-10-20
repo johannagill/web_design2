@@ -20,7 +20,7 @@ h1 {
 
 .light-green {
     grid-column: 1 / span 3;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
     filter: drop-shadow(5px 7px 5px #a4a4a5);
     font-size: 12px;
     
@@ -74,7 +74,7 @@ img.website-icon {
   }
 
   h1 {
-    font-family: 'Changa One', cursive;
+    font-family: 'Bebas Neue', cursive;
     font-size: 30px;
     color: rgb(77, 99, 88);
     
@@ -98,6 +98,7 @@ img.website-icon {
     padding: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    line-height: 1.5;
   }
 .index-par2 {
   grid-column: 1/ span 3;
@@ -106,6 +107,7 @@ img.website-icon {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  line-height: 1.5;
   
 
 }
@@ -116,6 +118,7 @@ img.website-icon {
   padding: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  line-height: 1.5;
 }
 
 .img-2-index {
@@ -125,12 +128,17 @@ img.website-icon {
 
   /*foretaget*/
 
+  main.foretaget {
+    background-color: rgb(240, 240, 240);
+  }
+
   .intro {
     grid-column: 1/ span 3;
     padding: 20px;
     grid-row: 2;
     font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  line-height: 1.5;
 
 }
 
@@ -146,6 +154,7 @@ img.website-icon {
     grid-row: 6;
     font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  line-height: 1.5;
   }
 
   img.mission-img {
@@ -162,6 +171,7 @@ img.website-icon {
     grid-row: 4;
     font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  line-height: 1.5;
   }
 
   .potential {
@@ -170,6 +180,7 @@ img.website-icon {
     grid-row: 8;
     font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  line-height: 1.5;
   }
 
   img.potential-img {
@@ -188,7 +199,7 @@ img.website-icon {
     font-family: 'Saira Condensed', sans-serif;
   }
 /*kontakt*/
-main.foretaget {
+main.kontakt {
   background-color: rgb(240, 240, 240);
 }
 
@@ -206,6 +217,7 @@ h3 {
   padding: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  line-height: 1.5;
   
 
 }
@@ -224,6 +236,7 @@ h3 {
   margin-left: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  line-height: 1.5;
   
 }
 
@@ -233,6 +246,7 @@ h3 {
   margin-left: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  line-height: 1.5;
 }
 
 .install {
@@ -241,6 +255,7 @@ h3 {
   margin-left: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  line-height: 1.5;
   
 }
 
@@ -250,6 +265,7 @@ h3 {
   margin-left: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  line-height: 1.5;
   
 
 }
@@ -258,6 +274,7 @@ h3 {
   display: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  line-height: 1.5;
 }
 
 .besok {
@@ -266,6 +283,7 @@ h3 {
   margin-left: 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  line-height: 1.5;
 }
 
 input[type=text], select, textarea {
@@ -344,11 +362,12 @@ input[type=text], select, textarea {
         max-width: 100%;
         grid-column: 1 / span 3;
         filter: saturate(1);
+        font-family: 'Bebas Neue', cursive;
 
     }
 
     h1 {
-      font-family: 'Changa One', cursive;
+      font-family: 'Bebas Neue', cursive;
       font-size: 60px;
       color: rgb(77, 99, 88);
       
@@ -577,7 +596,7 @@ input[type=text], select, textarea {
       }
 
       h1 {
-        font-family: 'Changa One', cursive;
+        font-family: 'Bebas Neue';
         
       }
 
@@ -590,7 +609,8 @@ input[type=text], select, textarea {
       .index-par1 {
         grid-column: 2/ span 2;
         grid-row: 4/ span 2;
-        padding: 0px 70px;
+        padding: 0px 30px;
+        line-height: 1.5;
         
       }
   
@@ -599,6 +619,7 @@ input[type=text], select, textarea {
       grid-row: 3;
      padding: 20px;
       text-align: center;
+      line-height:1.5;
       
     
     }
@@ -641,11 +662,13 @@ input[type=text], select, textarea {
       grid-column: 2/ span 4;
       grid-row: 2;
       padding: 20px 150px;
+      line-height: 2.5;
     }
 
       .forsalj {
         grid-column: 2;
         grid-row: 5;
+        line-height: 1.5;
         
         
           
@@ -654,6 +677,7 @@ input[type=text], select, textarea {
       .teknisk {
         grid-column: 3;
         grid-row: 5;
+        line-height: 1.5;
         
         
       }
@@ -661,6 +685,7 @@ input[type=text], select, textarea {
       .install {
         grid-column: 4;
         grid-row: 5;
+        line-height: 1.5;
         
         
         
@@ -669,6 +694,7 @@ input[type=text], select, textarea {
       .support {
         grid-column: 5;
         grid-row: 5;
+        line-height: 1.5;
        
         
        
@@ -678,6 +704,7 @@ input[type=text], select, textarea {
         grid-column: 2/ span 4;
         grid-row: 4;
         text-align: center;
+        line-height: 1.5;
       }
 
       .besok {
@@ -692,6 +719,7 @@ input[type=text], select, textarea {
       .intro {
         grid-column: 2/ span 4;
         padding: 20px;
+        line-height: 1.5;
     }
 
       img.intro-img {
@@ -706,6 +734,7 @@ input[type=text], select, textarea {
         grid-column: 1/ span 2;
         padding: 30px ;
         grid-row: 4;
+        line-height: 1.5;
       }
 
       img.mission-img {
@@ -720,12 +749,14 @@ input[type=text], select, textarea {
         grid-column: 3/ span 2;
         padding: 30px;
         grid-row: 4;
+        line-height: 1.5;
       }
     
       .potential {
         grid-column: 5/ span 2;
         padding: 30px;
         grid-row: 4;
+        line-height: 1.5;
       }
 
       img.potential-img {
