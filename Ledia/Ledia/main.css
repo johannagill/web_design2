@@ -283,14 +283,7 @@ input[type=text], select, textarea {
       color: rgb(72, 120, 96);
     }
 
-    h1 {
-        grid-column: 1 / span 2;
-        text-align: center;
-        font-family: 'Work Sans', sans-serif;
-        font-size: 60px;
-        font-weight: 400;
-
-    }
+    
 
     p:last-child {
         grid-column: 1 / span 2;
@@ -304,13 +297,44 @@ input[type=text], select, textarea {
 
     /*home*/
     
-
     img.start-img {
         max-width: 100%;
         grid-column: 1 / span 3;
         filter: saturate(1);
 
     }
+
+    h1 {
+      font-family: 'Changa One', cursive;
+      font-size: 60px;
+      color: rgb(77, 99, 88);
+      
+    }
+
+    .index-par1 {
+      grid-column: 1/ span 3;
+      grid-row: 3;
+      padding: 0px;
+      
+    }
+
+  .index-par2 {
+    grid-column: 1/ span 3;
+    grid-row: 5;
+   padding: 0px;
+    text-align: center;
+    
+  
+  }
+  
+  .index-par3 {
+    grid-column: 1/ span 3;
+    grid-row: 4;
+    padding: 0px;
+    display: block;
+    margin: auto;
+  }
+  
     /*foretaget*/
     .intro {
       grid-column: 1/ span 3;
