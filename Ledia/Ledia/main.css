@@ -2,7 +2,7 @@
 @import url('navbar.css');
 @import url('colors.css');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bowlby+One+SC&family=Changa+One&family=Fugaz+One&family=Markazi+Text:wght@600&family=Poiret+One&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Architects+Daughter&family=Bebas+Neue&family=Catamaran:wght@200;400&family=Dosis:wght@300;500&family=Gruppo&family=Inter:wght@200;500&family=Julius+Sans+One&family=Nixie+One&family=Permanent+Marker&family=Poiret+One&family=Racing+Sans+One&family=Roboto:ital,wght@0,300;0,500;1,300&family=Rokkitt:wght@100;300;700&family=Saira+Condensed:wght@100;500;700&family=Staatliches&family=Telex&display=swap');
 main {
     padding: 10px;
     display: grid;
@@ -20,6 +20,9 @@ h1 {
 
 .light-green {
     grid-column: 1 / span 3;
+    font-family: 'Permanent Marker', cursive;
+    filter: drop-shadow(5px 7px 5px #a4a4a5);
+    font-size: 12px;
     
 }
 
@@ -79,6 +82,7 @@ img.website-icon {
 
   h2 {
     color:  rgb(144, 168, 144);
+    font-family: 'Permanent Marker', cursive;
     text-align: center;
   }
 
@@ -92,12 +96,16 @@ img.website-icon {
     grid-column: 1/ span 3;
     grid-row: 3;
     padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
   }
 .index-par2 {
   grid-column: 1/ span 3;
   grid-row: 5;
   padding: 20px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   
 
 }
@@ -106,6 +114,8 @@ img.website-icon {
   grid-column: 1/ span 3;
   grid-row: 4;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .img-2-index {
@@ -119,6 +129,9 @@ img.website-icon {
     grid-column: 1/ span 3;
     padding: 20px;
     grid-row: 2;
+    font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
 }
 
   img.intro-img {
@@ -131,6 +144,8 @@ img.website-icon {
     grid-column: 1/ span 3;
     padding: 30px ;
     grid-row: 6;
+    font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   }
 
   img.mission-img {
@@ -145,12 +160,16 @@ img.website-icon {
     grid-column: 1/ span 3;
     padding: 30px;
     grid-row: 4;
+    font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   }
 
   .potential {
     grid-column: 1/ span 3;
     padding: 30px;
     grid-row: 8;
+    font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   }
 
   img.potential-img {
@@ -166,6 +185,7 @@ img.website-icon {
     background-color: rgb(144, 168, 144);
     text-align: center;
     padding: 20px;
+    font-family: 'Saira Condensed', sans-serif;
   }
 /*kontakt*/
 main.foretaget {
@@ -184,6 +204,8 @@ h3 {
 .par2 {
   grid-column: 1/ span 3;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   
 
 }
@@ -192,12 +214,16 @@ h3 {
     grid-column: 1/ span 3;
     padding: 20px;
     grid-row: 3;
+    font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .forsalj {
   grid-column: 1/ span 3;
   grid-row: 4;
   margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   
 }
 
@@ -205,12 +231,16 @@ h3 {
   grid-column:  1/ span 3;
   grid-row: 5;
   margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .install {
   grid-column:  1/ span 3;
   grid-row: 6;
   margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   
 }
 
@@ -218,18 +248,24 @@ h3 {
   grid-column:  1/ span 3;
   grid-row: 7;
   margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   
 
 }
 
 .besok2 {
   display: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .besok {
   grid-column: 1/ span 3;
   grid-row: 8;
   margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 input[type=text], select, textarea {
@@ -275,7 +311,9 @@ input[type=text], select, textarea {
         grid-template-rows: (4, auto);
         gap: 10px;
     }
-
+.light-green {
+  font-size: 15px;
+}
     main.foretaget {
       background-color: rgb(240, 240, 240);
     }
@@ -319,7 +357,7 @@ input[type=text], select, textarea {
     .index-par1 {
       grid-column: 1/ span 3;
       grid-row: 3;
-      padding: 0px;
+      padding: 40px;
       
     }
 
@@ -507,6 +545,7 @@ input[type=text], select, textarea {
 
     .light-green {
         grid-column: 1 / span 6;
+        font-size: 20px;
         
     }
 
