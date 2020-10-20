@@ -1,0 +1,621 @@
+@import url('reset.css');
+@import url('navbar.css');
+@import url('colors.css');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bowlby+One+SC&family=Changa+One&family=Fugaz+One&family=Markazi+Text:wght@600&family=Poiret+One&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
+
+main {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: (4, auto);
+
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+.light-green {
+    grid-column: 1 / span 3;
+    
+}
+
+.quote {
+    text-align: center;
+    margin: 2px;
+    color: rgb(255, 255, 255);
+}
+
+img.start-img {
+    margin-top: 10px;
+    max-width: 100%;
+    grid-column: 1 / span 3;
+    opacity: 0.5;
+}
+
+img.email-icon {
+  width: 13px;
+  padding-top: 2px;
+}
+
+img.phone-icon {
+  width: 13px;
+
+}
+
+img.location-icon {
+  width: 13px;
+}
+
+img.name-icon {
+  width: 14px;
+}
+
+img.website-icon {
+  width: 13px;
+}
+.container-img {
+    grid-column: 1 / span 3;
+    position: relative;
+    color: white;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    
+  }
+
+  h1 {
+    font-family: 'Changa One', cursive;
+    font-size: 30px;
+    color: rgb(77, 99, 88);
+    
+  }
+
+  h2 {
+    color:  rgb(144, 168, 144);
+    text-align: center;
+  }
+
+  h3 {
+    color: rgb(144, 168, 144);
+    margin: 10px 0px;
+
+  }
+
+  .index-par1 {
+    grid-column: 1/ span 3;
+    grid-row: 3;
+    padding: 20px;
+  }
+.index-par2 {
+  grid-column: 1/ span 3;
+  grid-row: 5;
+  padding: 20px;
+  text-align: center;
+  
+
+}
+
+.index-par3 {
+  grid-column: 1/ span 3;
+  grid-row: 4;
+  padding: 20px;
+}
+
+  /*foretaget*/
+
+  .intro {
+    grid-column: 1/ span 3;
+    padding: 20px;
+    grid-row: 2;
+}
+
+  img.intro-img {
+    max-width: 100%;
+    grid-column: 1/ span 3;
+    grid-row: 7;
+  }
+
+  .mission {
+    grid-column: 1/ span 3;
+    padding: 30px ;
+    grid-row: 6;
+  }
+
+  img.mission-img {
+    grid-column: 1/ span 3;
+    grid-row: 3;
+    max-width: 100%;
+    margin-top: 20px;
+
+  }
+
+  .vision {
+    grid-column: 1/ span 3;
+    padding: 30px;
+    grid-row: 4;
+  }
+
+  .potential {
+    grid-column: 1/ span 3;
+    padding: 30px;
+    grid-row: 8;
+  }
+
+  img.potential-img {
+    grid-column: 1/span 3;
+    grid-row: 5;
+    max-width: 100%;
+
+  }
+
+  footer {
+    grid-column: 1 / span 3;
+    color: white;
+    background-color: rgb(144, 168, 144);
+    text-align: center;
+    padding: 20px;
+  }
+/*kontakt*/
+main.foretaget {
+  background-color: rgb(240, 240, 240);
+}
+
+h2 {
+  color: rgb(72, 120, 96);
+}
+
+h3 {
+  color: rgb(72, 120, 96);
+}
+
+
+.par2 {
+  grid-column: 1/ span 3;
+  padding: 20px;
+  
+
+}
+
+.form-container {
+    grid-column: 1/ span 3;
+    padding: 20px;
+    grid-row: 3;
+}
+
+.forsalj {
+  grid-column: 1/ span 3;
+  grid-row: 4;
+  margin-left: 10px;
+  
+}
+
+.teknisk {
+  grid-column:  1/ span 3;
+  grid-row: 5;
+  margin-left: 10px;
+}
+
+.install {
+  grid-column:  1/ span 3;
+  grid-row: 6;
+  margin-left: 10px;
+  
+}
+
+.support {
+  grid-column:  1/ span 3;
+  grid-row: 7;
+  margin-left: 10px;
+  
+
+}
+
+.besok2 {
+  display: none;
+}
+
+.besok {
+  grid-column: 1/ span 3;
+  grid-row: 8;
+  margin-left: 10px;
+}
+
+input[type=text], select, textarea {
+    
+    width: 100%;
+    padding: 12px; 
+    border: 0px;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: white;
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+ 
+  input[type=submit] {
+    background-color: rgb(72, 120, 96);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  label {
+    color:rgb(144, 168, 144);
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #173118;
+  }
+  
+  
+
+@media (min-width:768px) {
+    main {
+        padding: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: (4, auto);
+        gap: 10px;
+    }
+
+    main.foretaget {
+      background-color: rgb(240, 240, 240);
+    }
+
+    h2 {
+      color: rgb(72, 120, 96);
+    }
+
+    h3 {
+      color: rgb(72, 120, 96);
+    }
+
+    h1 {
+        grid-column: 1 / span 2;
+        text-align: center;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+
+    }
+
+    p:last-child {
+        grid-column: 1 / span 2;
+    }
+
+    .quote {
+        text-align: center;
+        margin: 2px;
+        color: rgb(255, 255, 255);
+    }
+
+    /*home*/
+    
+
+    img.start-img {
+        max-width: 100%;
+        grid-column: 1 / span 3;
+        filter: saturate(1);
+
+    }
+    /*foretaget*/
+    .intro {
+      grid-column: 1/ span 3;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 40px;
+      padding-top: 0px;
+      grid-row: 2;
+  }
+  
+    img.intro-img {
+      grid-column: 1/ span 3;
+      grid-row: 7;
+      max-width: 80%;
+      display: block;
+      margin: auto;
+      
+    }
+  
+    .mission {
+      grid-column: 1/ span 3;
+      padding: 40px ;
+      grid-row: 6;
+      
+    }
+  
+    img.mission-img {
+      grid-column: 1/ span 3;
+      grid-row: 3;
+      max-width: 100%;
+      margin-top: 20px;
+      max-width: 80%;
+      display: block;
+      margin: auto;
+  
+    }
+  
+    .vision {
+      grid-column: 1/ span 3;
+      padding: 40px;
+      grid-row: 4;
+    }
+  
+    .potential {
+      grid-column: 1/ span 3;
+      padding: 40px;
+      grid-row: 8;
+    }
+  
+    img.potential-img {
+      grid-column: 1/span 3;
+      grid-row: 5;
+      max-width: 80%;
+      display: block;
+      margin: auto;
+  
+    }
+
+    /*kontakt*/
+
+    .forsalj {
+      grid-column: 1;
+      grid-row: 2;
+      margin-left: 20px;
+      
+    }
+
+    .teknisk {
+      grid-column: 1;
+      grid-row: 3;
+      margin-left: 20px;
+    }
+
+    .install {
+      grid-column: 1;
+      grid-row: 4;
+      margin-left: 20px;
+      
+    }
+
+    .support {
+      grid-column: 1;
+      grid-row: 5;
+      margin-left: 20px;
+
+    }
+
+    .besok2 {
+      display: none;
+    }
+
+    .besok {
+      grid-column: 1;
+      grid-row: 6;
+      margin-left: 20px;
+    }
+
+    .par2 {
+      grid-column: 2/ span 2;
+      padding: 20px;
+      grid-row: 2;
+    }
+    
+    .form-container {
+        grid-column: 2/ span 2;
+        padding: 20px;
+        grid-row: 3/ span 4;
+    }
+    
+    input[type=text], select, textarea {
+        
+        width: 100%;
+        padding: 12px; 
+        border: 0px;
+        border-radius: 1px; 
+        box-sizing: border-box;
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical;
+        background-color: white;
+        color: grey;
+        font-family: 'Courier New', Courier, monospace;
+      }
+      
+     
+      input[type=submit] {
+        background-color: rgb(72, 120, 96);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    
+      label {
+        color:rgb(144, 168, 144);
+      }
+      
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+}
+
+@media (min-width: 950px) {
+    /*general*/
+    main { padding: 10px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 10px;
+    }
+
+    .light-green {
+        grid-column: 1 / span 6;
+        
+    }
+
+    .quote {
+        text-align: center;
+        margin: 2px;
+        color: rgb(255, 255, 255);
+        
+        
+    }
+/*home*/
+    img.start-img {
+        filter: saturate(1);
+        
+    }
+
+    .container-img {
+      grid-column: 1 / span 6;
+      position: relative;
+     
+      
+    }
+      
+      .text {
+        position: absolute;
+        top: 20%;
+        left: 20px;
+        
+      }
+
+      h1 {
+        font-family: 'Changa One', cursive;
+        
+      }
+
+      h2 {
+        color: rgb(72, 120, 96);
+        text-align: center;
+        
+      }
+
+      /*kontakt*/
+      
+
+      .form-container {
+        grid-column: 2/ span 4;
+        grid-row: 3;
+    }
+
+    .par2 {
+      grid-column: 2/ span 4;
+      grid-row: 2;
+    }
+
+      .forsalj {
+        grid-column: 2;
+        grid-row: 5;
+        
+          
+      }
+
+      .teknisk {
+        grid-column: 3;
+        grid-row: 5;
+        
+        
+      }
+
+      .install {
+        grid-column: 4;
+        grid-row: 5;
+        
+        
+        
+      }
+
+      .support {
+        grid-column: 5;
+        grid-row: 5;
+       
+        
+       
+      }
+
+      .besok2 {
+        grid-column: 2/ span 4;
+        grid-row: 4;
+        text-align: center;
+      }
+
+      .besok {
+        display: none;
+      }
+
+      /*foretaget*/
+      h2.om-oss {
+        text-align: center;
+      }
+
+      .intro {
+        grid-column: 2/ span 4;
+        padding: 20px;
+    }
+
+      img.intro-img {
+        max-width: 100%;
+        grid-column: 4/ span 3;
+        grid-row: 5;
+        
+        
+      }
+
+      .mission {
+        grid-column: 1/ span 2;
+        padding: 30px ;
+        grid-row: 4;
+      }
+
+      img.mission-img {
+        grid-column: 2/ span 4;
+        grid-row: 3;
+        max-width: 100%;
+        margin-top: 20px;
+
+      }
+
+      .vision {
+        grid-column: 3/ span 2;
+        padding: 30px;
+        grid-row: 4;
+      }
+    
+      .potential {
+        grid-column: 5/ span 2;
+        padding: 30px;
+        grid-row: 4;
+      }
+
+      img.potential-img {
+        grid-column: 1/span 3;
+        grid-row: 5;
+        max-width: 100%;
+       
+        
+
+      }
+
+}

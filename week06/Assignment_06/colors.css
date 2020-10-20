@@ -1,21 +1,21 @@
 .light-green {
-    background-color: rgb(192, 192, 168);
-    width: 100%;
+    background-color: rgb(179, 197, 179);
+    
 }
 
-.sand-bg {
-    background-color: rgb(189, 172, 150);
+.darkest-green {
+    background-color: rgb(72, 120, 96);
 }
 
-.teal-bg {
-    background-color: rgb(151, 166, 160);
+.green {
+    background-color: rgb(144, 168, 144);
 }
 
-.sky-bg {background-color: rgb(204, 217, 215);
+.green-beige {background-color: rgb(192, 192, 168);
 }
 
-.back-tx {
-    color: rgb(0,0,0);
+.green-tx {
+    color: rgb(96, 144, 96);
 }
 
 .teal-tx {

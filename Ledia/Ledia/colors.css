@@ -1,0 +1,23 @@
+.light-green {
+    background-color: rgb(179, 197, 179);
+    
+}
+
+.darkest-green {
+    background-color: rgb(72, 120, 96);
+}
+
+.green {
+    background-color: rgb(144, 168, 144);
+}
+
+.green-beige {background-color: rgb(192, 192, 168);
+}
+
+.green-tx {
+    color: rgb(96, 144, 96);
+}
+
+.teal-tx {
+    color: rgb(151, 166, 160);
+}

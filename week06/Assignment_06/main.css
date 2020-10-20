@@ -6,13 +6,12 @@
 main {
     padding: 10px;
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(4, auto);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: (4, auto);
 
 }
 
 h1 {
-    font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     font-weight: 400;
     margin: 0px;
@@ -20,24 +19,46 @@ h1 {
 }
 
 .light-green {
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 3;
     
 }
 
-h3 {
+.quote {
     text-align: center;
     margin: 2px;
-    color: rgb(248, 245, 240);
+    color: rgb(255, 255, 255);
 }
 
 img.start-img {
     margin-top: 10px;
     max-width: 100%;
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 3;
     opacity: 0.5;
 }
+
+img.email-icon {
+  width: 13px;
+  padding-top: 2px;
+}
+
+img.phone-icon {
+  width: 13px;
+
+}
+
+img.location-icon {
+  width: 13px;
+}
+
+img.name-icon {
+  width: 14px;
+}
+
+img.website-icon {
+  width: 13px;
+}
 .container {
-    grid-column: 1 / span 2;
+    grid-column: 1 / span 3;
     position: relative;
     color: white;
     
@@ -48,7 +69,6 @@ img.start-img {
     top: 100px;
     left: 10px;
     
-    
   }
 
   h1 {
@@ -58,12 +78,89 @@ img.start-img {
     
   }
 
+  h2 {
+    color:  rgb(144, 168, 144);
+  }
+
+  h3 {
+    color: rgb(144, 168, 144);
+    margin: 10px 0px;
+
+  }
+
+  footer {
+    grid-column: 1 / span 3;
+    color: white;
+    background-color: rgb(144, 168, 144);
+    text-align: center;
+    padding: 20px;
+  }
+/*kontakt*/
+
+.par1 {
+  grid-column: 1 / span 3;
+  padding: 20px;
+  grid-row: 4;
+  
+
+}
+
+.par2 {
+  grid-column: 1/ span 3;
+  padding: 20px;
+  
+
+}
+
+.form-container {
+    grid-column: 1/ span 3;
+    padding: 20px;
+    grid-row: 3;
+}
+
+input[type=text], select, textarea {
+    
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(72, 120, 96);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  label {
+    color:rgb(144, 168, 144);
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
 
 @media (min-width:768px) {
     main {
-        padding: 10px 0px;
+        padding: 10px;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto 1fr 1fr;
+        grid-template-rows: (4, auto);
         gap: 10px;
         margin: auto;
     }
@@ -80,22 +177,95 @@ img.start-img {
     p:last-child {
         grid-column: 1 / span 2;
     }
+
+    .quote {
+        text-align: center;
+        margin: 2px;
+        color: rgb(255, 255, 255);
+    }
+
+    img.start-img {
+        max-width: 100%;
+        grid-column: 1 / span 2;
+        opacity: 0.5;
+
+    }
+
+    .par1 {
+      grid-column: 1 / span 2;
+      padding: 20px;
+      grid-row: 2 / span 3;
+      
+    
+    }
+
+    .par2 {
+      grid-column: 2;
+      padding: 20px;
+      grid-row: 2;
+    }
+    
+    .form-container {
+        grid-column: 2;
+        padding: 20px;
+        grid-row: 3;
+    }
+    
+    input[type=text], select, textarea {
+        
+        width: 100%;
+        padding: 12px; 
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+      }
+      
+      /* Style the submit button with a specific background color etc */
+      input[type=submit] {
+        background-color: rgb(72, 120, 96);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    
+      label {
+        color:rgb(144, 168, 144);
+      }
+      
+      /* When moving the mouse over the submit button, add a darker green color */
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      /* Add a background color and some padding around the form */
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
 }
 
 @media (min-width: 950px) {
     
     main { padding: 10px;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
     }
 
     .light-green {
-        grid-column: 1 / span 2;
+        grid-column: 1 / span 3;
         
     }
 
-    h3 {
+    .quote {
         text-align: center;
         margin: 2px;
-        color: rgb(241, 238, 235);
+        color: rgb(255, 255, 255);
         
         
     }
@@ -125,6 +295,77 @@ img.start-img {
       h1 {
         font-family: 'Changa One', cursive;
         
+      }
+
+      h2 {
+        color: rgb(72, 120, 96);
+        
+      }
+
+      .par1 {
+        grid-column: 1 / span 2;
+        padding: 20px;
+        grid-row: 2 / span 3;
+      
+      }
+
+      .par2 {
+        grid-column: 2;
+        padding: 20px;
+        grid-row: 2;
+        
+      
+      }
+
+      .intro {
+        grid-column: 1/ span 2;
+        padding: 80px;
+      }
+
+      img.intro-img {
+        max-width: 95%;
+        grid-column: 3;
+        margin-top: 100px;
+      }
+      .mission {
+        grid-column: 2/ span 3;
+        padding: 80px ;
+      }
+
+      img.mission-img {
+        grid-column: 1;
+        grid-row: 3;
+        max-width: 100%;
+        margin-top: 50px;
+
+      }
+
+      img.vision-img {
+        max-width: 100%;
+        grid-column: 2/ span 3;
+        grid-row: 4;
+        margin-right: 20px;
+        
+      }
+
+      .vision {
+        grid-column: 1;
+        padding: 80px;
+      }
+    
+      .potential {
+        grid-column: 1/ span 2;
+        margin-left: 80px;
+        margin-top: 50px;
+        padding-right: 20px;
+      }
+
+      img.potential-img {
+        grid-column: 3;
+        grid-row: 5;
+        max-width: 100%;
+        margin-top: 120px;
+
       }
 
 }
