@@ -130,19 +130,6 @@ img {
         
         
     }
-    
-
-    .grid-item {
-        background-color: #f5e6f2;
-        margin: auto;
-        font-family: 'Quicksand', sans-serif;
-        padding: 30px;
-        margin-bottom: 10px;
-        color: dimgrey;
-        width: 70%;
-        vertical-align: top;
-        margin-left: 120px;
-    }
 
    
 
@@ -152,7 +139,7 @@ img {
     }
     
     .grid-item2 {
-        line-height: 1;
+        line-height: 2;
     }
 
     h3 {
