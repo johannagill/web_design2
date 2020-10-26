@@ -9,7 +9,7 @@ body {
 }
 
 main {
-    padding: 5px;
+   padding: 0px;
     background-color: rgb(243, 233, 241);
 
 }
@@ -21,21 +21,19 @@ main {
     
 }
 
-.grid-item {
-    margin: auto;
+.grid-item1 {
     font-family: 'Quicksand', sans-serif;
-    padding: 5px;
     margin-bottom: 10px;
-    color: dimgrey;
+   
 
 }
 
 .grid-item2 {
-    width: 90%;
-    margin: auto;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 10px;
     font-family: 'Quicksand', sans-serif;
+    line-height: 2;
+}
 }
 
 h3 {
@@ -82,14 +80,9 @@ main {
     
 }
 
-.grid-item {background-color: #f5e6f2;
-    margin: auto;
-    font-family: 'Quicksand', sans-serif;
-    padding: 5px;
-    margin-bottom: 10px;
-    margin-top: 5px;
-    color: dimgrey;
-    width: 70%;
+.grid-item2 {
+    padding: 40px;
+    
 }
 
 h3 {
@@ -133,8 +126,8 @@ img {
     
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto;
-        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        
         
     }
     
@@ -151,11 +144,17 @@ img {
         margin-left: 120px;
     }
 
+   
+
     .grid-item1 {
-        width: 120%;
+        width: 100%
         
     }
     
+    .grid-item2 {
+        line-height: 2.5;
+    }
+
     h3 {
     font-family: 'Architects Daughter', cursive;
     text-align: center;
@@ -174,8 +173,8 @@ img {
     
     
     img {
-        width: 50%;
-        height: auto;
+        width: 100%;
+        
     }
     
     
