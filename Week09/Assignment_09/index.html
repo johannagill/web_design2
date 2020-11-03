@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+</head>
+<style>
+    #myheading {
+        background-color: #EFF6E0;
+        margin: 0px;
+        padding: 20px;
+        text-align: center;
+    }
+    #myDiv {
+        height: 400px;
+        background-color: #AEC3B0;
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+    }
+   
+    #colorchange {
+        display: block;
+        padding: 10px;
+        margin: auto;
+        color: white;
+        background-color: #403F4C;
+        text-align: center;
+
+
+    }
+
+    #colorchange2 {
+        display: block;
+        margin-top: 20px;
+        padding: 10px;
+        margin: 10px auto;
+        color: white;
+        background-color: #403F4C;
+        text-align: center;
+        font-family: ;
+    }
+    
+    </style>
+</head>
+<body>
+    <h1 id="myheading">Hello, World! </h1>
+    <div id="myDiv"></div>
+    <button href="#" id="colorchange">Change The Color </button>
+    <button href="#" id="colorchange2">Change The Color Again</button>
+
+    
+
+    <script>
+    console.log ("This is your page talking to you!")
+
+    let bigDiv = document.getElementById("myDiv");
+    let trigButton = document.getElementById("colorchange")
+    let docHeading = document.getElementById("myheading")
+
+        console.log ("trigButton")
+
+        trigButton.addEventListener("click", function(){
+                docHeading.style.backgroundColor = "#FFAD05";
+                bigDiv.style.fontFamily = "Impact"
+                bigDiv.style.backgroundColor = "#3E8989";
+                bigDiv.innerText = "Happy Halloween!";
+               
+
+        });
+
+        console.log ("trigButton2")
+        
+        let trigButton2 = document.getElementById("colorchange2")
+
+        trigButton2.addEventListener("click", function(){
+            docHeading.style.backgroundColor = "#A8D5E2";
+            bigDiv.style.backgroundColor = "#A690A4";
+            bigDiv.style.fontFamily = "Monospace";
+            bigDiv.innerText = "This is another color combination :) ";
+       
+
+});
+    
+
+            
+      
+    
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    #myheading {
+        background-color: aquamarine;
+        margin: 0px;
+        padding: 20px;
+    }
+    #myDiv {
+        height: 400px;
+        background-color: lightgray;
+    }
+    </style>
+</head>
+<body>
+    <h1 id="myheading">Hello, <span id="userID"> World!</span></h1>
+    <div id="myDiv"></div>
+    <button href="#" id="colorchange">Change The Color </button>
+
+    
+
+    <script>
+    console.log ("This is your page talking to you!")
+
+    let answer = prompt ("What's your name?");
+    console.log(answer);
+    document.getElementById("userID").innerText = answer;
+
+    let bigDiv = document.getElementById("myDiv");
+    let trigButton = document.getElementById("colorchange")
+    let docHeading = document.getElementById("myheading")
+
+        console.log ("trigButton")
+
+        trigButton.addEventListener("click", function(){
+            let userAnswer = confirm ("Are you sure you want to do this?");
+            console.log (userID).innerText = answer;
+           
+            if (userAnswer == true) {
+                docHeading.style.backgroundColor = "plum";
+                bigDiv.style.backgroundColor = "salmon";
+                bigDiv.innerText = "This is red now!";
+                alert("The Changes are now complete");
+
+            }
+
+            else {
+                alert ("No Action Will Be Taken");
+            }
+
+            
+        });
+    
+
+    </script>
+   
+</body>
+</html>
