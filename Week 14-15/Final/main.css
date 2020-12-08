@@ -1,0 +1,37 @@
+@import url('reset.css');
+@import url('navbar.css');
+
+#welcome {
+padding: 10px;
+}
+
+#welcomeH {
+    text-align: center;
+    
+}
+
+#intro{
+    font-size: 20px;
+}
+
+#welcomeImages {
+    padding: 10px;
+}
+
+.aboutH {
+    text-align: center;
+}
+
+#aboutP {
+    padding: 10px;
+    font-size: 20px;
+}
+
+/*ipad*/
+@media (min-width: 768px){}
+
+
+
+
+/*wide screen*/
+@media (min-width: 950px){}
