@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libraries/Jquery UI/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+
+
+
+    "
+    <link rel="stylesheet" href="main.css">
+
+    <title>JQuery UI/Fancy Box</title>
+</head>
+<body>
+
+    <div id="accordion">
+        <h3>Why is the sky blue</h3>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut debitis quos fuga ab maxime ea ut aspernatur distinctio autem. Dolorem quibusdam, accusamus quasi aut quae nihil perferendis commodi quas doloribus?
+            </p>
+        </div>
+        <!---Section 1 end-->
+        <h3>Why is the earth round?</h3>
+        <div>
+            <img src="https://geology.com/google-earth/google-earth.jpg" alt="earth">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum consequatur officiis exercitationem dignissimos sequi delectus ullam similique, quisquam a aliquid earum eligendi ex ipsum laboriosam explicabo laborum quod dolor magnam.</p>
+        </div>
+        <!---Section 2 end-->
+        <h3>Why do bad things happen?</h3>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quia quasi iure nam, ullam atque, voluptatibus, inventore mollitia nisi consectetur velit veritatis! Repellendus, tempora. Suscipit reprehenderit vitae repudiandae qui omnis.</p>
+        </div>
+        <!---Section 3 end-->
+    </div>
+    <hr>
+    
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">Video</a></li>
+            <li><a href="#tabs-2">Photo</a></li>
+            <li><a href="#tabs-3">Audio</a></li>
+            <li><a href="#tabs-4">Lighting Equipment</a></li>
+
+        </ul>
+        <div id="tabs-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis maxime alias eos omnis, minus aliquam repellendus cupiditate iste optio ea sunt incidunt recusandae error voluptatum, commodi deleniti veritatis asperiores fugiat?</p>
+        </div>
+        <div id="tabs-2"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis maxime alias eos omnis, minus aliquam repellendus cupiditate iste optio ea sunt incidunt recusandae error voluptatum, commodi deleniti veritatis asperiores fugiat?</p>
+        </div>
+        <div id="tabs-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis maxime alias eos omnis, minus aliquam repellendus cupiditate iste optio ea sunt incidunt recusandae error voluptatum, commodi deleniti veritatis asperiores fugiat?</p>
+        </div>
+        <div id="tabs-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis maxime alias eos omnis, minus aliquam repellendus cupiditate iste optio ea sunt incidunt recusandae error voluptatum, commodi deleniti veritatis asperiores fugiat?</p>
+        </div>
+    </div>
+<hr>
+    <div id="earthquake">
+        <img src="https://www.jll.com.au/images/global/treant-and-insights/global-cities-why-timber-buildings.jpg.rendition/cq5dam.web.1280.1280.jpeg" alt="building">
+    </div>
+
+<hr>
+
+<div id="fB-imgs">
+    <a href="https://getstem.com.au/wp-content/uploads/2020/09/quokka-family-stock-image.jpg" data-fancybox="gallery" data-caption="Quokka 1">
+        <img src="https://pbs.twimg.com/profile_images/1295626188346421249/tjVqpja6.jpg" alt="Thumbnail 1">
+    </a>
+
+    <a href="https://1s2oosvtjy52xrh4r10z0zms-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/Quokka-facts.jpg" data-fancybox="gallery" data-caption="Quokka 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQbP1AigaLZdDJ5MfmHtRQ2qlYf6HOtCvUSA&usqp=CAU" alt="Thumbnail 2">
+    </a>
+</div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="libraries/Jquery UI/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+
+
+
+    "
+    <script>
+        $(document).ready(function(){
+            $("#accordion").accordion({
+                heightStyle: "content"
+            });
+
+            $("#tabs").tabs();
+
+            $("#earthquake").click(function(){
+                $("#earthquake").effect("shake", {}, 1500, aftermath);
+                });
+            
+            function aftermath(){
+                console.log("ruined");
+                $("#earthquake img").attr({
+                    src: "https://cdn.theatlantic.com/assets/media/img/posts/2018/04/geograph_5029708_by_Mike_Searle_1-1/bcaa785e5.jpg"
+                })
+            }
+        });
+        
+
+
+    </script>
+</body>
+</html>

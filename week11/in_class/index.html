@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img {
+        width: 30%;
+        }
+</style>
+<body>
+    <div id="carousel">
+        <img src="Images/puppy-1.jpg" alt="cute puppy 1" id="carouselIMG">
+    </div>
+
+    <script>
+        let carousel = document.getElementById("carousel");
+        let carouselIMG = document.getElementById("carouselIMG");
+        let img1 = "Images/puppy-1.jpg";
+        let img2 = "Images/puppy-2.jpg";
+        let img3 = "Images/puppy-3.jpg";
+
+        let imgChange = function(){
+            if(carouselIMG.alt === "cute puppy 1"){
+                carouselIMG = img2;
+                carouselIMG.alt = "cute puppy 2";   
+            }
+            else if (carouselIMG.alt === "cute puppy 2"){
+                carouselIMG = img3;
+                carouselIMG.alt = "cute puppy 3"; 
+            }
+
+            else if (carouselIMG.alt === "cute puppy 3"){
+                carouselIMG = img1;
+                carouselIMG.alt = "cute puppy 1"; 
+            }
+
+        }
+
+        let subscribeRequest = function(){
+            prompt("Give us your email or else!!", "my@email.com");
+        }
+
+        window.addEventListener("load", function(){
+            setTimeout(imgChange, 4000);
+            setInterval(imgChange, 3000);
+        })
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+
+.ui-state-default, .ui-widget-content .ui-state-default,
+ .ui-widget-header .ui-state-default, .ui-button, 
+ html .ui-button.ui-state-disabled:hover, 
+ html .ui-button.ui-state-disabled:active {
+     border-color: brown;
+     background-color: coral;
+     color: darkblue;
+ }
+
+ .ui-state-active a,
+  .ui-state-active a:link, 
+  .ui-state-active a:visited {
+    color: darkblue;
+  }
+
+  .fancybox-caption {
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 20px;
+  }
