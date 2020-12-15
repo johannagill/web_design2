@@ -55,6 +55,7 @@ li a {
     text-align: center;
     font-weight: 500;
     color: darkblue;
+    font-family: 'Poiret One';
 }
 nav ul li:last-child {
     border-bottom: none;
@@ -107,6 +108,7 @@ img.toggle-img {
         text-align: center;
         font-weight: 500;
         color: orange;
+        font-family: 'Poiret One';
        
     }
 
@@ -122,10 +124,6 @@ img.toggle-img {
 /*wide screen*/
 @media (min-width: 950px) {
 
-    .wf-loading nav {
-        visibility: hidden;
-        }
-    
     .logo {
         width: 200px;
         display: block;

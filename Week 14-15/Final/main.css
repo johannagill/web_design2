@@ -37,6 +37,14 @@ h3 {
     font-family: 'Poiret One';
 }
 
+footer {
+    padding-top: 30px;
+    background-color: #c7b7a9;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
 .blogB {
         border: none;
         border-radius: 0;
@@ -218,7 +226,7 @@ h2 {
 }
 
 #blog-grid {
-    padding-top: 35px;
+    padding-top: 15px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -229,11 +237,16 @@ h2 {
 }
 
 .blogimg1 {
+    
     grid-row: 1;
 }
 .p-1 {
     
     grid-row: 2;
+}
+
+.blog-2 {
+    margin-top: 30px;
 }
 
 .blogimg2 {
@@ -246,6 +259,10 @@ h2 {
     grid-row: 4;
 }
 
+.blog-3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .blogimg3 {
    
     grid-row: 5;
@@ -642,6 +659,7 @@ font-family: 'Poiret One';
 
 
 .blogimg1 {
+    width: 500px;
     grid-column: 1;
     grid-row: 1;
 }
@@ -656,6 +674,7 @@ font-family: 'Poiret One';
 }
 
 .blogimg2 {
+    width: 500px;
     grid-column: 1;
     grid-row: 2;
 }
@@ -666,6 +685,7 @@ font-family: 'Poiret One';
 }
 
 .blogimg3 {
+    width:500px;
     grid-column: 1;
     grid-row: 3;
 }
@@ -866,5 +886,5 @@ text-transform: none;
 color: #fff;
 letter-spacing: 8px;
 margin-top: 20px;
-)
+}
 
