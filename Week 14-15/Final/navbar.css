@@ -1,4 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Archivo+Black&family=Bebas+Neue&family=Cormorant:ital,wght@0,400;0,500;1,300;1,400&family=Dancing+Script:wght@400;700&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,500;1,500&family=Indie+Flower&family=Lobster&family=Pacifico&family=Passion+One&family=Poiret+One&family=Righteous&display=swap');
+
 .logo {
+    max-width: 100%;
+    width: 100px;
+    margin: auto;
+    
+}
+
+.donate-logo {
     max-width: 100%;
     width: 100px;
     margin: auto;
@@ -22,6 +31,12 @@ nav ul {
     width: 100%;
     
 }
+
+#donate-nav ul {
+        background-color: #e3e3e1;
+
+}
+
 nav ul li {
     list-style: none;
     text-transform: uppercase;
@@ -38,7 +53,6 @@ li a {
     text-decoration: none;
     font-size: 20px;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: darkblue;
 }
@@ -73,13 +87,16 @@ img.toggle-img {
 /*ipad*/
 @media (min-width: 768px) {
     .logo {
-        width: 300px;
+        width: 200px;
+        padding: 10px;
+
         
     }
 
     img.toggle-img {
-        width: 70px;
-        margin-top: 5px;
+        width: 100px;
+        margin-top:75px;
+    
        
     }
 
@@ -88,9 +105,8 @@ img.toggle-img {
         text-decoration: none;
         font-size: 30px;
         text-align: center;
-        font-family: 'Poppins', sans-serif;
         font-weight: 500;
-        color: rgb(134, 155, 114);
+        color: orange;
        
     }
 
@@ -105,7 +121,16 @@ img.toggle-img {
 
 /*wide screen*/
 @media (min-width: 950px) {
+
+    .wf-loading nav {
+        visibility: hidden;
+        }
     
+    .logo {
+        width: 200px;
+        display: block;
+        margin: auto;
+    }
 
     label[for="Toggle"] {
         display: none;
@@ -116,10 +141,57 @@ img.toggle-img {
     
     }
 
+    nav ul li a {
+        font-family: 'Poiret One';
+        font-size: 35px;
+        border-bottom: 1px solid;
+    }
+
+    #donate-nav {
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+
+    .index-nav {
+        display: block;
+        margin: auto;
+        left: 29.2%;
+    }
+
+    .index-nav ul li a {
+        font-family: 'Poiret One';
+        font-size: 35px;
+    }
+
+    .donate-logo {
+        width: 200px;
+        padding: 10px;
+        display: block;
+        margin: auto;
+       
+    }
+
+    .navbar-2 {
+        position: unset;
+        display: block;
+        margin: auto;
+    }
+
+    .navbar-2 ul li a {
+        font-family: 'Poiret One';
+        font-size: 35px;
+    }
+
  nav {
      display: flex;
      justify-content: space-between;
      align-items: baseline;
+     position: absolute;
+     color: orange;
+     display: block;
+     margin: auto;
+     width: 600px;
    
 
     }
@@ -127,10 +199,17 @@ img.toggle-img {
 nav ul {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     position: relative;
     width: auto;
     padding: 0px;
+    background-color: transparent;
+    color: orange;
+
+}
+
+#donate-nav ul {
+    background-color: transparent;
 
 }
 
@@ -139,16 +218,16 @@ nav ul li {
     display: inline-block;
     width: auto;
     padding: 10px;
-    margin-top: 10px;
+    color: orange;
+    
     
 }
 
 li a {
     text-decoration: none;
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: rgb(134, 155, 114);
+    color: orange;
    
 }
 }

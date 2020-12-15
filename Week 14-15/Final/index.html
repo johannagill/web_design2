@@ -6,11 +6,15 @@
     <link rel="stylesheet" href="libraries/Jquery UI/jquery-ui.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
     <link href="main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Archivo+Black&family=Bebas+Neue&family=Cormorant:ital,wght@0,300;1,300&family=Dancing+Script:wght@400;700&family=Fira+Sans+Extra+Condensed:ital,wght@0,300;0,500;1,500&family=Indie+Flower&family=Lobster&family=Pacifico&family=Passion+One&family=Poiret+One&family=Righteous&display=swap" rel="stylesheet">
+
     <title>SPCA PV</title>
 </head>
 <body>
+    
     <header>
-   <nav>
+   <nav class="index-nav">
        
         <a href="index.html"><img class="logo" src="Images/logo.png" alt="logo"></a>
         <label for="toggle">
@@ -24,22 +28,37 @@
        <li><a href="blog.html">Blog</a></li>
     </ul>
    </nav>
-   <img src="Images/start-page.jpg" alt="Start Page Pup" id="start-img">
+  <img src="Images/start-page.jpg" alt="Start Page Pup" id="start-img">
     </header>
 
     <main>
         
         
-        <div id="welcome">
+        <div id="welcome-grid">
+
+            <div id="introdiv">
             <h1 id="welcomeH">Welcome to our PAWesome site!</h1>
 
-           <p id="intro"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi pariatur totam provident odio tempore eveniet non sapiente earum maxime consequatur commodi nostrum at nisi, distinctio voluptatem molestias itaque quae nemo?</p>
+           <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi pariatur totam provident odio tempore eveniet non sapiente earum maxime consequatur commodi nostrum at nisi, distinctio voluptatem molestias itaque quae nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aperiam? Perferendis quibusdam magnam consequatur nihil quasi odit harum ut iste delectus. Blanditiis autem fuga voluptatum enim sequi necessitatibus eligendi? Tempora!<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dicta ut voluptatibus consequatur eveniet cum officia animi exercitationem? Rem, dolore. Magnam quae, voluptatibus corrupti est maiores fugit nulla esse ab? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dignissimos repellendus sit minus, facere porro, iusto delectus quae, cum possimus nisi quis quisquam nostrum modi accusamus voluptatibus. Aliquid, vero eaque. </p>
+
+        </div>
+         
+        <div id="img-div">
+        <img class="intro-img" src="Images/blog2.jpg" alt="Puppy">
         </div>
 
+    </div> 
+
         <div id="welcomeImages">
-            <h2>Latest Updates</h2>
-            <img class="indexImgs" src="Images/christmas-pup.jpg" alt="Pup 1">
-            <img class="indexImgs" src="Images/kennel-dog.jpg" alt="Pup 2">
+            
+            <div class="text">
+            <h1 class="WH">Latest Updates from our blog</h1>
+            <a href="blog.html"><button class="blogB">Blog</button></a> 
+            </div>
+
+            <img class="indexImg1" src="Images/christmas-pup.jpg" alt="Pup 1">
+
+            <img class="indexImg2" src="Images/kennel-dog.jpg" alt="Pup 2">
 
         </div>
     </main>

@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-   <nav>
+   <nav class="navbar-2">
        
         <a href="index.html"><img class="logo" src="Images/logo.png" alt="logo"></a>
         <label for="toggle">
@@ -26,7 +26,46 @@
    </nav>
     </header>
 
-    <main></main>
+    <main>
+        <div id="blog-grid">
+        
+       
+
+            <div class="blog-1">
+                <div class="blogimg1">
+                <img src="Images/blog2.png" alt="const dog">
+                 </div>
+                <h2>The renovation proccess continues...</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod earum unde blanditiis in autem nesciunt quam amet, officiis fuga? Consectetur facilis vel natus totam et mollitia, fugiat aliquam itaque iure?</p>
+                <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laudantium modi quae dicta maxime tenetur nam porro ipsa dolore. Sed architecto ut officia quas dicta distinctio dolor, quidem sunt maxime. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi molestias doloribus laudantium eaque voluptate aperiam in eveniet error. Totam non veniam modi. Fuga esse numquam accusamus eveniet vero, eligendi modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ducimus officia placeat dignissimos obcaecati at. Temporibus, quas culpa nemo modi in sint fuga deleniti quisquam laudantium, ad excepturi dolores totam.</p>
+                <button id="toggle1">Read More</button>
+            </div>
+  
+
+            <div class="blog-2">
+            <div class="blogimg2"><img class="blogimg2" src="Images/blog-2.jpg" alt="Cute puppy"> </div>
+            <h2>Say Welcome to our newest paw family member!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum in nisi consequuntur a sequi excepturi nemo provident tempora architecto ad! Vel repellat fuga non nihil incidunt ducimus mollitia minus nemo.</p>
+        <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta amet, quisquam voluptatibus inventore quam tempora veniam dolorem! Rem vitae illum omnis porro non, ratione iste ad pariatur, veniam, facilis iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis mollitia ratione totam in modi molestias magnam qui iure, voluptates aperiam vero, necessitatibus porro labore, dignissimos reiciendis cum eveniet quaerat. Porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vitae voluptatum illo atque eligendi quibusdam quidem nemo aspernatur, expedita ex sed, qui fugit perspiciatis quo quasi ipsa. Vero, enim nulla!</p>
+        <button id="toggle2">Read More</button>
+        </div>
+        
+       
+
+       
+        
+       <div class="blog-3">
+        <img class="blogimg3" src="Images/blog3.jpg" alt="Christmas">
+        <h2>Christmas around the corner</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ullam, numquam, iure eligendi nam eius, blanditiis velit enim assumenda impedit delectus atque vitae? Laboriosam repellendus sint enim quo eligendi optio!</p>
+        <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit alias quis, officiis, molestias aut dolorem perspiciatis ex voluptatem placeat quos illo ut minus ipsam, veritatis vel nobis ad iure mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id fugiat recusandae facere! Vero hic maxime aliquam cumque iste porro vel reiciendis unde repellendus vitae sint omnis, animi assumenda aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum optio corrupti molestias, excepturi delectus nesciunt cumque perferendis? Impedit quasi, autem, tempore atque et voluptatum reprehenderit dolore laborum, eius eum nobis.</p>
+            <button id="toggle3">Read More</button>
+        </div>
+        
+
+    </div>
+
+    </main>
 
     <footer>
     </footer>
@@ -35,5 +74,24 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="libraries/Jquery UI/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        
+            $("#toggle1").click(function(){
+                $(".p-1").toggle();
+            });
+
+            $("#toggle2").click(function(){
+                $(".p-2").toggle();
+            });
+
+            $("#toggle3").click(function(){
+                $(".p-3").toggle();
+            });
+            
+            
+        });
+    </script>
 </body>
 </html>
