@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet">
+
+    <title>Week 12</title>
+</head>
+<body>
+    <main>
+    
+    <div class="grid-layout">
+    <div class="fade">
+    <img src="Images/Christmas-tree.jpg" alt="christmas tree" class="js-image">
+    <button id="fadeOut">Fade out image.</button>
+    </div>
+
+    <div class="slide">
+    <img src="Images/christmas2.jpg" alt="gifts" class="js-image2">
+    <button id="slideUp">Click to slide image.</button>
+    </div>
+
+    <div class="toggle">
+        <img src="Images/new-year.jpg" alt="new year" class="js-image3">
+        <button id="fadeToggle">Click to toggle fade img.</button>
+        </div>
+
+        <div class="add">
+        <img src="Images/2021.jpg" alt="NY" class="js-image4">
+        <button id="clickB">Click to toggle.</button>
+        </div>
+
+    </div>
+    
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $("#fadeOut").click(function(){
+                $(".js-image").fadeOut(2500);
+            });
+
+            $("#slideUp").click(function(){
+                $(".js-image2").slideUp(1500);
+            });
+
+            $("#fadeToggle").click(function(){
+                $(".js-image3").fadeToggle(3000);
+            });
+
+            $("#clickB").click(function(){
+                $(".js-image4").toggle();
+            });
+        });
+
+    </script>
+</body>
+</html> 
