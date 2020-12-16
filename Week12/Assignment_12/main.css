@@ -1,6 +1,6 @@
 main {
     background-color: rgb(117, 152, 153);
-    height: 600px;
+    height: 800px;
 }
 
 img {
@@ -8,7 +8,7 @@ img {
 }
 
 .grid-layout {
-    padding-top: 150px;
+    padding-top: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
